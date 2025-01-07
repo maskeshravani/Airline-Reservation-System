@@ -1,0 +1,188 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMaster.master.cs" Inherits="User_UserMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            border: 1px solid #000000;
+            font-family: "Century Gothic";
+        }
+        .style2
+        {
+        
+        }
+        .style3
+        {
+            width: 100%;
+            background-color: #009933;
+        }
+        .style4
+        {
+            width: 100%;
+            color: #FFFFFF;
+          
+        }
+        .style5
+        {
+            width: 100%;
+        }
+        .style6
+        {
+            color: #FFFFFF;
+            font-size: x-large;
+          
+        }
+        .style7
+        {
+            
+        }
+        .style8
+        {
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <table align="center" cellpadding="0" cellspacing="0" class="style1" 
+        style="border: thin solid #808080">
+        <tr>
+            <td class="style2">
+                <table align="center" cellpadding="0" cellspacing="0" class="style3">
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="3" cellspacing="0" class="style4">
+                                <tr>
+                                    <td>
+                                     
+                                        <span class="style8">&nbsp;&nbsp;&nbsp;
+                                     
+                                        <asp:Image ID="Image1" runat="server" Height="20px" 
+                                            ImageUrl="~/Images/icons8-call-50.png" Width="20px" />
+                                    </td>
+                                    <td>
+                                        9011293700</td>
+                                    <td>
+                                        <asp:Image ID="Image2" runat="server" Height="20px" 
+                                            ImageUrl="~/Images/icons8-email-26.png" Width="20px" />
+                                    </td>
+                                    <td>
+                                        airline@gmail.com</td>
+                                    <td>
+                                    
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button4" runat="server" AccessKey="q" 
+                                            BackColor="#339933" BorderColor="#339933" BorderStyle="None" 
+                                            ForeColor="#339933" PostBackUrl="~/Admin/Admin_login.aspx" Text="Button" />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" style="text-decoration:none;" 
+                                            NavigateUrl="~/User/Customer login.aspx">Login</asp:HyperLink>
+&nbsp;l&nbsp;
+                                        <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="White" style="text-decoration:none;" 
+                                            NavigateUrl="~/User/Customer_Registration.aspx">Sign Up</asp:HyperLink>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="6">
+                                        <hr size="1" style="color: #FFFFFF" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <table align="center" cellpadding="2" cellspacing="0" class="style5">
+                                <tr>
+                                    <td class="style7">
+                                        <strong><span class="">
+                                        <asp:Image ID="Image7" runat="server" Height="40px" 
+                                            ImageUrl="~/Images/icons8-flight-50 (2).png" Width="60px" />
+                                        </span></strong></td>
+                                    <td class="style7">
+                                        <span class="style6"> <strong>Airline Reservation System</strong>&nbsp;</span><strong>&nbsp;&nbsp;&nbsp; </strong></td>
+                                    <td class="style6">
+                                        <asp:Image ID="Image3" runat="server" Height="20px" 
+                                            ImageUrl="~/Images/icons8-home-50.png" Width="20px" />
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" style="text-decoration:none; font-size: medium;" 
+                                            NavigateUrl="~/User/Home.aspx">Home</asp:HyperLink>
+                                    &nbsp;&nbsp;&nbsp; </td>
+                                    <td class="style6">
+                                        <asp:Image ID="Image4" runat="server" Height="25px" 
+                                            ImageUrl="~/Images/icons8-view-64.png" Width="25px" />
+                                    </td>
+                                    <td class="style6">
+                                        <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" 
+                                            style="text-decoration:none; font-size: medium;" 
+                                            NavigateUrl="~/User/View Bookingaspx.aspx">View Booking</asp:HyperLink>
+                                        &nbsp;&nbsp;&nbsp;</td>
+                                    <td class="style6">
+                                        <asp:Image ID="Image5" runat="server" Height="25px" 
+                                            ImageUrl="~/Images/icons8-visa-50.png" Width="25px" />
+                                    </td>
+                                    <td class="style6">
+                                        <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="White" style="text-decoration:none; font-size: medium;" 
+                                            NavigateUrl="~/User/Visa.aspx">Visa</asp:HyperLink>
+                                    &nbsp;&nbsp;&nbsp; </td>
+                                    <td class="style6">
+                                        <asp:Image ID="Image6" runat="server" Height="25px" 
+                                            ImageUrl="~/Images/icons8-hotel-check-in-50.png" Width="25px" />
+                                    </td>
+                                    <td class="style6">
+                                        <asp:HyperLink ID="HyperLink6" runat="server" ForeColor="White" 
+                                            style="text-decoration:none; font-size: medium;" 
+                                            NavigateUrl="~/User/View Airlines.aspx">View Airlines</asp:HyperLink>
+                                    &nbsp;&nbsp;
+                                    </td>
+                                    <td class="style6">
+                                        <asp:Image ID="Image8" runat="server" Height="25px" 
+                                            ImageUrl="~/Images/icons8-hotel-check-in-50.png" Width="25px" />
+                                    </td>
+                                    <td class="style6">
+                                        <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="White" style="text-decoration:none; font-size: medium;" 
+                                            NavigateUrl="~/User/Feedback.aspx">Feedback</asp:HyperLink>
+                                    </td>
+                                    <td align="right">
+                                        <asp:Button ID="Button2" runat="server" BackColor="#333333" BorderStyle="None" 
+                                       style="border-radius:10px; "     ForeColor="White" 
+                                            Height="40px" PostBackUrl="~/User/Contactus.aspx" 
+                                            Text="Contact Us" Width="150px" />
+                                    &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <marquee style="text-align:left; color: #FFFFFF; background-color: #000000;" 
+                    behaviour="alternate"
+                    scrollamount="15" height=27px>Project By : Shravani $ Gouri </marquee>
+             </td>
+        </tr>
+    </table>
+    </form>
+
+    </body>
+</html>
